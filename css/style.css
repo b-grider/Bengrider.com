@@ -3,7 +3,7 @@ body {
 	font-family: "moonflowerbold", sans-serif;
 	color: #FFFFFF;															/*#faf3dd*/
 	/*background:#231f20;	*/		/*#420600*/
-	font-size:1.800em
+	font-size:2.00em
 }
 
 @font-face {
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-	color: #4fb69f;
+	color: #000000;			/*#4fb69f*/
 	text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ ul.nav li {
 ul.nav li.last {
 	margin: 0;
 	padding: 10px 25px;
-	color: #4fb69f;
+	color: #000000;			/*#4fb69f*/
 	font-family: 'moonflowerbold', sans-serif;
 	border: 0;
 	font-weight: 100;
@@ -116,9 +116,9 @@ ul.nav li.last:hover {
 }
 
 ul.nav li a {
-	color: #4fb69f;
+	color: #800000;		/*#4fb69f*/
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /*
@@ -146,7 +146,7 @@ ul.nav li a {
 */
 
 #copyright {
-	border-top: 8px solid #2a0400;
+	border-top: 8px solid #000000;
 	padding: 10px 0;
 	margin: 15px 0;
 	text-align: center;
