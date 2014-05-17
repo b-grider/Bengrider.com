@@ -118,7 +118,7 @@ ul.nav li.last:hover {
 ul.nav li a {
 	color: #800000;		/*#4fb69f*/
 	display: block;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /*
