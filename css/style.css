@@ -96,30 +96,33 @@ ul.nav li {
 	margin-right: 40px;
 }
 
+/*
 ul.nav li.last {
 	margin: 0;
 	padding: 10px 25px;
 	color: #000000;			/*#4fb69f*/
-	font-family: 'moonflowerbold', sans-serif;
+/*	font-family: 'moonflowerbold', sans-serif;
 	border: 0;
 	font-weight: 100;
 	font-size: .75em;
 /*	background: #b22316 url('texture.png') no-repeat right top;;*/
-	border-radius: 25px;
+	/*border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	text-transform: uppercase;
+}*/
+
+ul.nav a:hover {
+		color: #800000;
 }
 
-ul.nav li.last:hover {
-		background-color: #c62718;
-}
 
-ul.nav li a {
-	color: #800000;		/*#4fb69f*/
+ul.nav a {
+	color: #4fb69f;		/*#4fb69f*/	/*800000*/
 	display: block;
 	text-decoration: none;
 }
+
 
 /*
 #intro {
